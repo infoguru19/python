@@ -69,3 +69,13 @@ x = "John" # Both are the same
 x = 'John'
 ```
 
+# Output Variables
+The Python print() function is often used to output variables.
+```
+x = "Python"
+y = "is"
+z = "awesome"
+print(x, y, z)
+```
+
+
