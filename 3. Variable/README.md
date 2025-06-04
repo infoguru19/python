@@ -6,12 +6,36 @@ y = "Ravi"
 print(x)
 print(y)
 ```
-
-## Variable names are case-sensitive.
+## Variable Names
+A variable can have a short name (like x and y) or a more descriptive name (age, carname, total_volume).
+### Legal Variable names
+```
+myvar = "John"
+my_var = "John"
+_my_var = "John"
+myVar = "John"
+MYVAR = "John"
+myvar2 = "John"
+```
+### Variable names are case-sensitive.
 ```
 a = 4
 A = "Sally"
 #A will not overwrite a
+```
+### Many Values to Multiple Variables
+```
+x, y, z = "Orange", "Banana", "Cherry"
+print(x)
+print(y)
+print(z)
+```
+### One Value to Multiple Variables
+```
+x = y = z = "Orange"
+print(x)
+print(y)
+print(z)
 ```
 
 ## Variables do not need to be declared with any particular type, and can even change type after they have been set.
