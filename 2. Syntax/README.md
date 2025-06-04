@@ -12,13 +12,15 @@ if 5 > 2:
 print("Five is greater than two!")
 ```
 ## Coorect
-```if 5 > 2:
+```
+if 5 > 2:
  print("Five is greater than two!") 
 if 5 > 2:
         print("Five is greater than two!")
 ```
 ## Incorrect
-```if 5 > 2:
+```
+if 5 > 2:
  print("Five is greater than two!")
         print("Five is greater than two!")
 ```
@@ -29,5 +31,7 @@ y = "Hello, World!"
 ```
 
 # Comments
-```#This is a comment.
-print("Hello, World!")```
+```
+#This is a comment.
+print("Hello, World!")
+```
