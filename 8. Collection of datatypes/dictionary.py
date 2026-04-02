@@ -8,8 +8,20 @@ thisdict = {
 }
 
 print(thisdict)
+print(type(thisdict))
 
 print(thisdict.get("model"))
 
 x = thisdict["year"]
 print(x)
+
+for x in thisdict:
+    print(x)            # print Key
+    print(thisdict[x])  # Print value
+
+for x in thisdict.keys():
+    print(x)
+
+for x in thisdict.values():
+    print(x)
+
